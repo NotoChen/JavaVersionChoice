@@ -50,6 +50,9 @@ Java
 
 运行 **[JavaVersionChoice.bat](https://github.com/NotoChen/JavaVersionChoice/blob/main/JavaVersionChoice.bat)**
 
+![image](https://github.com/NotoChen/JavaVersionChoice/assets/46807914/4b2b61cb-5181-45fd-8ae8-6c901c33ce63)
+
+
 ## 拓展方式
 
 下载安装其他厂商/版本的JDK,目录结构以 **/厂商/版本/bin及其他目录**的形式放置在仓库中，[JavaVersionChoice.bat](https://github.com/NotoChen/JavaVersionChoice/blob/main/JavaVersionChoice.bat)会自动兼容。
