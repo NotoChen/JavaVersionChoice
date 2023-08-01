@@ -50,7 +50,7 @@ Java
 
 Run **[JavaVersionChoice.bat](https://github.com/NotoChen/JavaVersionChoice/blob/main/JavaVersionChoice.bat)**
 
-![image](https://github.com/NotoChen/JavaVersionChoice/assets/46807914/4b2b61cb-5181-45fd-8ae8-6c901c33ce63)
+![image](https://github.com/NotoChen/JavaVersionChoice/assets/46807914/5e429483-df3f-4b87-bcd8-c0bab217a74f)
 
 
 ## WaysToExpand
