@@ -1,6 +1,5 @@
 # Java版本切换工具
 
-
 ## 目录
 
 - [项目背景](#项目背景)
@@ -9,6 +8,7 @@
 - [使用](#使用)
 - [拓展方式](#拓展方式)
 - [开源协议](#开源协议)
+- [贡献指南](#贡献指南)
 
 ## 项目背景
 
@@ -48,17 +48,34 @@ Java
 
 ## 使用
 
-运行 **[JavaVersionChoice.bat](https://github.com/NotoChen/JavaVersionChoice/blob/main/JavaVersionChoice.bat)**
+1. 在命令行中运行[JavaVersionChoice.bat](JavaVersionChoice.bat)文件：
+
+```bash
+JavaVersionChoice.bat
+```
+
+2. 选择需要切换的Java厂商和版本，按照提示操作即可完成切换
 
 ![image](https://github.com/NotoChen/JavaVersionChoice/assets/46807914/4b2b61cb-5181-45fd-8ae8-6c901c33ce63)
+
+3. 切换成功后，脚本会自动设置对应的JAVA_HOME和PATH环境变量。
 
 
 ## 拓展方式
 
-下载安装其他厂商/版本的JDK,目录结构以 **/厂商/版本/bin及其他目录**的形式放置在仓库中，[JavaVersionChoice.bat](https://github.com/NotoChen/JavaVersionChoice/blob/main/JavaVersionChoice.bat)会自动兼容。
+如果需要添加其他厂商或版本的JDK，可以按照以下步骤进行拓展：
+
+1. 下载安装其他厂商/版本的JDK，并将目录结构按照 **/厂商/版本/bin** 及其他目录的形式放置在仓库中。
+
+2. 运行[JavaVersionChoice.bat](JavaVersionChoice.bat)，工具会自动识别并兼容新添加的厂商/版本。
+
 
 ## 开源协议
 
 [Apache License 2.0](https://github.com/NotoChen/JavaVersionChoice/blob/main/LICENSE) © NotoChen
+
+## 贡献指南
+
+如果你发现了Bug或者有改进的建议，欢迎提交Issue和PR，帮助我们完善这个工具。
 
 

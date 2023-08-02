@@ -28,7 +28,6 @@ exit
 :: ≥ı ºªØPath Initialize Path
 :initPath
 	@setx /M PATH "%PATH%;%%JAVA_HOME%%\bin"
-	pas
 goto :eof
 :: …Ë÷√JAVA_HOME Setting JAVA_HOME
 :setJavaHome
